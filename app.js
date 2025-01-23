@@ -6,7 +6,7 @@ const authRouter = require("./routes/authRouter");
 const app = express();
 app.use(
   cors({
-    origin: "*",
+    origin: "https://fe-password-task.netlify.app",
     credentials: true,
   })
 ),
